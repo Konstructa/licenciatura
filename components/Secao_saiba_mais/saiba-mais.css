@@ -1,0 +1,118 @@
+.saiba-mais-section {
+    background-color: rgba(28, 28, 28, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 0;
+    height: min-content;
+}
+
+.saiba-mais-section h2,.saiba-mais-section h3,.saiba-mais-section button {
+    color: white;
+}
+
+.saiba-mais-section .section-title-box {
+    padding-right: 45.456875rem;
+}
+
+.saiba-mais-section h2 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.saiba-mais-section .section-title-box hr {
+    height: 5px;
+    width: 430px;
+    background-color: #F23545;
+}
+
+.saiba-mais-section .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2.3125rem;
+}
+
+@media (max-width:1205px) {
+    .saiba-mais-section .section-title-box h2 {
+        font-size: calc(1.875rem*.8);
+    }
+
+    .saiba-mais-section .section-title-box hr {
+        width: calc(430px*.8);
+        height: calc(5px*.8);
+    }
+
+    .saiba-mais-section .section-title-box {
+        padding-right: calc(45.456875rem*.824);
+    }
+}
+
+@media (max-width:990px) {
+    .saiba-mais-section .section-title-box h2 {
+        font-size: calc(1.875rem*.6);
+    }
+
+    .saiba-mais-section .section-title-box hr {
+        width: calc(430px*.6);
+        height: calc(5px*.6);
+    }
+
+    .saiba-mais-section .section-title-box {
+        padding-right: calc(45.456875rem*.647);
+    }
+}
+
+@media (max-width: 768px) {
+    .saiba-mais-section .section-title-box {
+        padding-right: 14.40625rem;
+    }
+    
+    .saiba-mais-section .section-title-box h2 {
+        font-size: calc(1.875rem*.85);
+    }
+    
+    .saiba-mais-section .section-title-box hr {
+        width: calc(430px*.81);
+        height: 3px;
+    }
+
+    .saiba-mais-section .cards {
+        flex-direction: column;
+        gap: 4.3125rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .saiba-mais-section .section-title-box {
+        padding-right: 9.40625rem;
+    }
+    
+    .saiba-mais-section .section-title-box h2 {
+        font-size: calc(1.875rem*.63);
+    }
+    
+    .saiba-mais-section .section-title-box hr {
+        width: calc(430px*.59);
+        height: 3px;
+    }
+}
+
+@media (max-width: 426px) {
+    .saiba-mais-section .section-title-box {
+        padding-right: 7.40625rem;
+    }
+    
+    .saiba-mais-section .section-title-box h2 {
+        font-size: 0.875rem;
+    }
+    
+    .saiba-mais-section .section-title-box hr {
+        width: 190px;
+        height: 3px;
+    }
+
+    .saiba-mais-section .cards {
+        gap: 1.875rem;
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    font-family: 'Roboto', sans-serif;
+    height: 2.2rem;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 0.95);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 785px) {
+    .footer {
+        font-size: 0.5rem;
+    }
+}

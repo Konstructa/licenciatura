@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-container, form {
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 50%;
+}
+
+
+.contato hr {
+    background-color: #FAC934;
+    height:2px;
+    width: 120px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 1.453125rem;
+    margin-left: 45px;
+}
+
+.title {
+    display:flex;
+    gap: 12px;
+    font-size: 1.875rem;
+    margin-top: 3.125rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    justify-content:center;
+}
+
+.pair-label-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+form label {
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    border: 1px solid #C4C4C4;
+    padding: 0.75rem 1.875rem;
+    color: #C4C4C4;
+    font-family: 'Roboto';
+    font-size:1rem;
+    border-radius: 10px;
+
+}
+
+#submit {
+    color:  #FFFFFF;
+    background-color:  #91D7F2;
+    font-weight: 400; 
+    padding: 0.875rem 1.375rem;
+    border: none;
+    border-radius:10px;
+    font-size: 1.5rem;
+    width: 30%;
+    align-self: center;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 694px) {
+    #submit {
+        width: 50%;
+    }
+
+    .title-container, form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,135 @@
+.area-adress {
+    height: 37rem;
+    width: 100%;
+    background-color: rgba(28, 28, 28, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+}
+
+.map {
+    height: 300px;
+    width: 600px;
+    background-color: coral;
+    margin-left: 1.25rem;
+}
+
+.title-map hr{
+    background-color: #61A64E;
+    width: 30%;
+    height: 5px;
+}
+
+.adress-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.adress-info hr {
+    margin-bottom: 20px;
+    background-color: #FAC934;
+    width: 75%;
+    height: 2px;
+}
+
+.adress-info h1 {
+    font-size: 1.5rem;
+}
+
+.area-title-map {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.title-adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1120px) {
+
+    .adress-info h1, .title-map h1 {
+        font-size: 1rem;
+    }
+
+    .map {
+        height: 180px;
+        width: 350px;
+    }
+
+    .adress-info hr {
+        width: 50%;
+    }
+
+    .title-map hr{
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 868px) {
+    .area-adress {
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .area-adress {
+        height: 30rem;
+    }
+
+    .map {
+        height: 168px;
+        width: 300px;
+    }
+
+    .adress-info h1 {
+        font-size: 0.9rem;
+    }
+
+    .adress-info  {
+        line-height: 30px;
+    }
+
+    .adress-info hr {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    .title-map hr{
+      
+        width: 20%;
+
+    }
+
+    .adress-info p {
+        font-size: 0.65rem;
+    }
+
+    .title-map h1 {
+        font-size: 0.87rem;
+    }
+    
+
+
+}

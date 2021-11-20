@@ -1,0 +1,159 @@
+.section-notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    gap: 30px;
+    align-items: center;
+}
+
+.div-cards {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 25px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.div-cards::-webkit-scrollbar {
+    display: none;
+ }
+ 
+ 
+.notice-title {
+    width: 1142px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.notice-title hr{
+    background-color: #53BDEC;
+    height: 5px;
+    width: 250px;
+}
+
+.card-notice {
+    background-color: #FFFFFF;
+    height: 98%;
+    width: 270px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px -1px  rgba(0, 0, 0, 0.7);
+}
+
+.info-notice-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 179px;
+    justify-content: space-between;
+}
+
+.info-notice-card h3{
+    color: #676767;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.info-notice-card p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 14px;
+}
+
+.notice-btn {
+    color: #FFFFFF;
+    padding: 1.2rem 4.2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #F23545;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.notice-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.notice-btn:hover {
+    background-color: #D62E3C;
+}
+
+
+@media screen and (max-width: 768px) {
+    .notice-btn {
+        padding: 1rem 2rem;
+        border-radius: 15px;
+        font-size: 1rem;
+    }
+
+    .notice-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .notice-title hr{
+        width: 150px;
+    }
+
+    .img-card-notice {
+        height: 100px;
+        width: 199px;
+        border-radius: 30px;
+    }
+
+    .info-notice-card h3 {
+        font-size: 0.8rem;
+    }
+
+    .info-notice-card p {
+        font-size: 0.4rem;
+        margin-bottom: 30px;
+    }
+
+    .info-notice-card {
+        height: 170px;
+    }
+
+    .card-notice {
+        border-radius: 40px;
+        margin-left: 2px;
+    }
+
+    .notice-title, .div-cards {
+        margin-left: 5%;
+    }
+    
+    .section-notice {
+        align-items: initial;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .section-notice {
+        align-items: initial;
+    }
+
+    .div-cards {
+        margin-left: 10%;
+        justify-content: initial;
+    }
+
+    .notice-title {
+        margin-left: 10%;
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    
+
+
+}
